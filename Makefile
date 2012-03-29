@@ -4,6 +4,7 @@ PUBLIC_JS = ./public/js
 BOOTSTRAP_LESS = ./public/less/bootstrap.less
 
 all: public less
+	npm install
 
 public:
 	mkdir -p ${PUBLIC_IMG}
