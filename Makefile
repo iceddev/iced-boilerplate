@@ -15,4 +15,4 @@ less:
 	lessc --include-path=./public/bootstrap/less ${BOOTSTRAP_LESS} > ./public/css/bootstrap.css
 	lessc --include-path=./public/bootstrap/less --compress ${BOOTSTRAP_LESS} > ./public/css/bootstrap.min.css
 
-.PHONY:
+.PHONY: all public less
